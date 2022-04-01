@@ -1,0 +1,73 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+METHOD:PUBLISH
+PRODID:-//LogMeIn//GoToWebinar//EN
+X-MS-OLK-FORCEINSPECTOROPEN:TRUE
+BEGIN:VTIMEZONE
+TZID:Europe/Brussels
+TZURL:http://tzurl.org/zoneinfo-outlook/Europe/Brussels
+X-LIC-LOCATION:Europe/Brussels
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTAMP:20200513T175210Z
+DTSTART;TZID=Europe/Brussels:20200518T090000
+DTEND;TZID=Europe/Brussels:20200518T123000
+SUMMARY:GoToWebinar - Accueil des stagiaires 1ère année
+LOCATION:GoToWebinar - consulter les informations de téléconférence ci-de
+ ssous
+UID:1140856437@logmein.com
+ORGANIZER:fi@asforef.com
+DESCRIPTION:1. Cliquez puis rejoignez le webinaire à la date et à l’heure
+  indiquées :\nhttps://global.gotowebinar.com/join/5075189950020738064/20
+ 7709235\nRemarque : ne partagez pas ce lien avec d'autres utilisateurs\,
+  il vous a été spécialement attribué.\n\n2. Choisissez l’une des options
+  audio suivantes :\n\nPOUR UTILISER L'AUDIO DE VOTRE ORDINATEUR :\nAprès
+  avoir rejoint le webinaire\, l'audio fonctionnera avec le microphone et
+  les haut-parleurs de votre ordinateur (VoIP). L’utilisation d’un casque
+  est recommandée.\n\n-- OU --\n\nPOUR UTILISER VOTRE TÉLÉPHONE :\nSi vou
+ s préférez utiliser votre téléphone\, sélectionnez « Utiliser le télépho
+ ne » après avoir rejoint le webinaire et composez l’un des numéros ci-de
+ ssous.\n\nFrance : +33 170 950 597\n	Code d’accès : 437-671-991\n	Code P
+ IN audio : affiché après avoir rejoint le webinaire\n\nPrésentation du s
+ tage EC/CAC\n
+X-ALT-DESC;FMTTYPE=text/html:<HTML><HEAD><TITLE></TITLE><BODY><FONT SIZE=
+ 2><b>1. Cliquez puis rejoignez le webinaire à la date et à l’heure indiq
+ uées :</b></FONT><BR><FONT SIZE=2>https://global.gotowebinar.com/join/50
+ 75189950020738064/207709235</FONT><BR><FONT SIZE=2>Remarque : ne partage
+ z pas ce lien avec d'autres utilisateurs\, il vous a été spécialement at
+ tribué.</FONT><BR><BR><FONT SIZE=2><FONT SIZE=2><b>2. Choisissez l’une d
+ es options audio suivantes :</b></FONT><BR><BR><FONT SIZE=2>POUR UTILISE
+ R L'AUDIO DE VOTRE ORDINATEUR :</FONT><BR><FONT SIZE=2>Après avoir rejoi
+ nt le webinaire\, l'audio fonctionnera avec le microphone et les haut-pa
+ rleurs de votre ordinateur (VoIP). L’utilisation d’un casque est recomma
+ ndée.</FONT><BR><BR><FONT SIZE=2>-- OU --</FONT><BR><BR><FONT SIZE=2>POU
+ R UTILISER VOTRE TÉLÉPHONE :</FONT><BR><FONT SIZE=2>Si vous préférez uti
+ liser votre téléphone\, sélectionnez « Utiliser le téléphone » après avo
+ ir rejoint le webinaire et composez l’un des numéros ci-dessous.</FONT><
+ BR><BR><FONT SIZE=2>France : +33 170 950 597</FONT><BR><FONT SIZE=2>&nbs
+ p\;&nbsp\;&nbsp\;&nbsp\;</FONT><FONT SIZE=2>Code d’accès : 437-671-991</
+ FONT><BR><FONT SIZE=2>&nbsp\;&nbsp\;&nbsp\;&nbsp\;</FONT><FONT SIZE=2>Co
+ de PIN audio : affiché après avoir rejoint le webinaire</FONT><BR></BODY
+ ></HTML></FONT><BR><FONT SIZE=2>Présentation du stage EC/CAC</FONT><BR><
+ /BODY></HTML>
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+END:VCALENDAR
